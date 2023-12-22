@@ -15,8 +15,10 @@ Hãy đảm bảo bạn đã nắm được cách sử dụng Python and Arduino
 
 
 Note: chú ý khi clone về bạn hãy đổi tên thư mục tải về bời vì mình sơ xuất đặt tên repo có dấu "." khi clone về chạy nó sẽ lỗi ko tải được file. Đổi Vietnamese-Automatic-Speech-Recognition-Use-Wav2vec2.0-And-Demo-Control-led-servo thành tên nào ngắn gọn ko có "."
+
 #Step3: Bạn cần đấu nối mạch như sau, sau đó kết nối Arduino với máy tính của bạn
 ![img.png](img.png)
+
 #Step4: Bạn cần mở Arduino IDE nạp mã trong file control_led_servo/control_led_servo.ino vào Arduino, hãy kiểm tra xem mã đã được nạp vào đúng chưa bằng cách mở serial monitor và nhập "1_L" nếu đèn sáng thì đã thành công
 
 #Step5: Hãy tắt Arduino IDE , và trong repo bạn clone về hãy chạy lệnh 
@@ -27,4 +29,5 @@ Và cuối cùng có thể khi bạn thực hiện các bước trên có thể 
 
 #Ngoài ra khi thực hiên xong bước 3, bạn có thể chạy lệnh:
 - streamlit run VN-ASR-demo/app/app.py
+
 #Sẽ xuất hiện một giao diện để bạn thử chạy model wav2vec 2.0 với đầu vào là 1 file .wav or giọng nói được ghi âm từ micro
